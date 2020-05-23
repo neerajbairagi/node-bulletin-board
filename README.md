@@ -1,4 +1,4 @@
-#Introduction
+##Introduction
 
 Now that you’ve set up your development environment, thanks to Docker Desktop, you can begin to develop containerized applications. In general, the development workflow looks like this:
 
