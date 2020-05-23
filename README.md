@@ -113,3 +113,34 @@ docker run -p 8000:8080 -d --name app bulletinborad:1.0
   
 Visit your application in a browser at localhost:8000. You should see your bulletin board application up and running. At this step,
 you would normally do everything you could to ensure your container works the way you expected; now would be the time to run unit tests, for examp
+
+
+
+# Share images on Docker Hub
+At this point, you’ve built a containerized application in Part 2 on your local development machine. The final step in developing a containerized application is to share your images on a registry like Docker Hub, so they can be easily downloaded and run on any destination machine.
+# If you don’t yet have a Docker ID, follow these steps to set one up; this will allow you to share images on Docker Hub.
+
+    Visit the Docker Hub sign up page, https://hub.docker.com/signup.
+
+    Fill out the form and submit to create your Docker ID.
+
+    Verify your email address to complete the registration process.
+
+    Click on the Docker icon in your toolbar or system tray, and click Sign in / Create Docker ID.
+
+    Fill in your new Docker ID and password. After you have successfully authenticated, your Docker ID appears in 
+    the Docker Desktop menu in place of the ‘Sign in’ option you just used.
+
+        You can do the same thing from the command line by typing docker login.
+
+# Create a Docker Hub repository and push your image
+
+docker images
+
+docker tag bulletinboard:1.0 mitrasonu/bulletinboard:1.0
+
+
+docker push mitrasonu/bulletinboard:1.0
+
+Visit your repository in Docker Hub, and you’ll see your new image there. Remember, Docker Hub repositories 
+are public by default.
