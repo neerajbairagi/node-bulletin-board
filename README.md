@@ -9,10 +9,11 @@ In general, the development workflow looks like this:
 
 In this stage of the tutorial, let’s focus on step 1 of this workflow: creating the images that your containers will be based on. Remember, a Docker image captures the private filesystem that your containerized processes will run in; you need to create an image that contains just what your application needs to run.
 
-    Containerized development environments are easier to set up than traditional development environments, once you learn how to
-    build images as we’ll discuss below. This is because a containerized development environment will isolate all the dependencies
-    your app needs inside your Docker image; there’s no need to install anything other than Docker on your development machine. 
-    In this way, you can easily develop applications for different stacks without changing anything on your development machine.
+    Containerized development environments are easier to set up than traditional development environments, 
+    once you learn how to     build images as we’ll discuss below. This is because a containerized development 
+    environment will isolate all the dependencies     your app needs inside your Docker image; there’s no need
+    to install anything other than Docker on your development machine. In this way, you can easily develop
+    applications for different stacks without changing anything on your development machine.
 
 
 
