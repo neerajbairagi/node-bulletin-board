@@ -35,7 +35,8 @@ taking no more memory than any other executable, making it lightweight.
 
 By contrast, a virtual machine (VM) runs a full-blown “guest” operating system with virtual access to host resources through a hypervisor. In general, VMs incur a lot of overhead beyond what is being consumed by your application logic.
 
-![Containers vs Virtual Machines ] https://github.com/sonulodha/node-bulletin-board/blob/master/vm_docker.JPG
+![Containers vs Virtual Machines](https://github.com/sonulodha/node-bulletin-board/blob/master/vm_docker.JPG)
+
 
 # Set up your Docker environment
 
